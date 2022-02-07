@@ -33,7 +33,9 @@
 }
 
 :root,
-.encore-dark-theme .encore-bright-accent-set {
+.encore-dark-theme .encore-bright-accent-set,
+.progress-bar,
+.progress-bar:hover {
   --background-base: var(--spice-color) !important;
   --is-active-fg-color: var(--spice-color) !important;
   --spice-button: var(--spice-color) !important;
