@@ -3,8 +3,8 @@
   "description": "Replace Spotify's green and remove unnecessary colors.",
   "preview": "./img/logo.png",
   "readme": "./README.md",
-  "usercss": "./theme/user.css",
-  "schemes": "./theme/color.ini",
+  "usercss": "./user.css",
+  "schemes": "./color.ini",
   "authors": [
     {
       "name": "Luximus",

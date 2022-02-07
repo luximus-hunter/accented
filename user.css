@@ -10,9 +10,7 @@
 
 .main-entityHeader-backgroundColor,
 .main-home-homeHeader,
-.main-actionBarBackground-background,
-.epWhU7hHGktzlO_dop6z,
-.DFtdzavKSbEhwKYkPTa6 .progress-bar:hover .epWhU7hHGktzlO_dop6z {
+.main-actionBarBackground-background {
   background-color: transparent !important;
   background: transparent !important;
 }
@@ -74,6 +72,11 @@
 }
 
 .main-button-primary {
+  background: var(--spice-color) !important;
+  background-color: var(--spice-color) !important;
+}
+
+.progress-bar:hover .epWhU7hHGktzlO_dop6z {
   background: var(--spice-color) !important;
   background-color: var(--spice-color) !important;
 }
