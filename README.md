@@ -19,13 +19,19 @@ Replace Spotify's green and remove unnecessary colors.
 
 ## Installation
 
+**Spicetify Marketplace** (recommended)
+
+Install the theme though the [Spicetify Marketplace](https://github.com/CharlieS1103/spicetify-marketplace).
+
 **Linux and MacOS** in Bash:
+
 ```bash
 cd "$(dirname "$(spicetify -c)")/Themes"
 git clone https://github.com/CharlieS1103/Glaze-theme
 ```
 
 **Windows** in Powershell:
+
 ```powershell
 cd "$(spicetify -c | Split-Path)\Themes"
 git clone https://github.com/CharlieS1103/Glaze-theme
