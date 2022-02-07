@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+* {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.main-topBar-background {
+  background-color: var(--spice-player) !important;
+  background: var(--spice-player) !important;
+}
+
+.main-entityHeader-backgroundColor,
+.main-home-homeHeader,
+.main-actionBarBackground-background {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+.iB16LxoPzDeVZo8zPhPQ {
+  isolation: unset !important;
+}
+
+.control-button-heart,
+.main-addButton-active {
+  color: var(--spice-heart) !important;
+  fill: var(--spice-heart) !important;
+}
+
+.control-button-heart:hover,
+.main-addButton-active:hover {
+  opacity: 0.75 !important;
+}
+
+:root,
+.encore-dark-theme .encore-bright-accent-set {
+  --background-base: var(--spice-color) !important;
+  --is-active-fg-color: var(--spice-color) !important;
+  --spice-button: var(--spice-color) !important;
+}
+
+.main-playButton-PlayButton,
+.main-playButton-primary,
+.ButtonInner-sc-14ud5tc-0,
+.main-button-primary {
+  background: var(--spice-color) !important;
+  background-color: var(--spice-color) !important;
+  color: var(--spice-contrast) !important;
+}
+
+.main-playButton-PlayButton:hover,
+.main-playButton-primary:hover,
+.ButtonInner-sc-14ud5tc-0:hover,
+.main-button-primary:hover {
+  -webkit-transform: scale(1.1) !important;
+          transform: scale(1.1) !important;
+}
+
+.HbKLiGoYM4dpuK8L4TMX {
+  color: var(--spice-color) !important;
+  border-radius: 50% !important;
+}
+
+.HbKLiGoYM4dpuK8L4TMX._APVWqivXc4YqgsnpFkP {
+  background-color: var(--spice-contrast) !important;
+}
+
+.HbKLiGoYM4dpuK8L4TMX svg {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.main-button-primary {
+  background: var(--spice-color) !important;
+  background-color: var(--spice-color) !important;
+}
+
+.main-trackList-trackListRow.main-trackList-active .main-trackList-rowTitle,
+.main-trackList-trackListRow.main-trackList-active .main-trackList-rowMarker {
+  color: var(--spice-color) !important;
+}
+
+.connect-device-list-item--active,
+.connect-device-list-item--active *,
+.control-button--active,
+.main-repeatButton-button {
+  color: var(--spice-color) !important;
+}
+
+.main-connectBar-connectBar.encore-bright-accent-set.mVVxN9ZfIRjiQfDuzPCZ.main-type-mesto {
+  color: var(--spice-contrast) !important;
+}
+
+.main-trackList-playingIcon {
+  -webkit-filter: brightness(1000%) !important;
+          filter: brightness(1000%) !important;
+}
+
+#spicetify-group-session-menu > img {
+  -webkit-filter: grayscale(100%) contrast(200%) !important;
+          filter: grayscale(100%) contrast(200%) !important;
+  border-radius: 5px !important;
+  padding-bottom: 0 !important;
+  margin-bottom: 12px !important;
+}
