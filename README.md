@@ -21,7 +21,9 @@ Replace Spotify's green and remove unnecessary colors.
 
 **Spicetify Marketplace** (recommended)
 
-Install the theme though the [Spicetify Marketplace](https://github.com/CharlieS1103/spicetify-marketplace).
+Install the theme though the [Spicetify Marketplace](https://github.com/CharlieS1103/spicetify-marketplace). This will allow you to change the color quickly in-app.
+
+![colors](./img/colors.png)
 
 **Linux and MacOS** in Bash:
 
