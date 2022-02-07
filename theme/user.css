@@ -36,6 +36,7 @@
   --background-base: var(--spice-color) !important;
   --is-active-fg-color: var(--spice-color) !important;
   --spice-button: var(--spice-color) !important;
+  --is-active-fg-color: var(--spice-color) !important;
 }
 
 .main-playButton-PlayButton,
