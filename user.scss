@@ -4,6 +4,58 @@
   font-family: 'Open Sans', sans-serif !important;
 }
 
+// globals
+:root,
+.encore-dark-theme .encore-bright-accent-set,
+.progress-bar,
+.progress-bar:hover,
+.hW9km7ku6_iggdWDR_Lg {
+  --background-base: var(--spice-color) !important;
+  --is-active-fg-color: var(--spice-color) !important;
+  --spice-button: var(--spice-color) !important;
+  --is-active-fg-color: var(--spice-color) !important;
+  --spice-button-active: var(--spice-color) !important;
+
+  // lyrics tab
+  --lyrics-color-active: var(--spice-color) !important;
+  --lyrics-color-inactive: #464849 !important;
+  --lyrics-color-background: var(--spice-main) !important;
+  --lyrics-color-messaging: #333333 !important;
+}
+
+.__background {
+  background-color: var(--spice-color) !important;
+  background: var(--spice-color) !important;
+  color: var(--spice-contrast) !important;
+}
+
+.__color {
+  color: var(--spice-color) !important;
+  fill: var(--spice-color) !important;
+}
+
+.__color_contrast {
+  color: var(--spice-contrast) !important;
+  fill: var(--spice-contrast) !important;
+}
+
+.__heart {
+  color: var(--spice-heart) !important;
+  fill: var(--spice-heart) !important;
+}
+
+.__transparent {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+.__scale_hover {
+  &:hover {
+    transform: scale(1.1) !important;
+  }
+}
+
+// page top bar
 .main-topBar-background {
   background-color: var(--spice-player) !important;
   background: var(--spice-player) !important;
@@ -12,8 +64,7 @@
 .main-entityHeader-backgroundColor,
 .main-home-homeHeader,
 .main-actionBarBackground-background {
-  background-color: transparent !important;
-  background: transparent !important;
+  @extend .__transparent;
 }
 
 .iB16LxoPzDeVZo8zPhPQ {
@@ -22,38 +73,27 @@
 
 .control-button-heart,
 .main-addButton-active {
-  color: var(--spice-heart) !important;
-  fill: var(--spice-heart) !important;
+  @extend .__heart;
 
   &:hover {
     opacity: 0.75 !important;
   }
 }
 
-:root,
-.encore-dark-theme .encore-bright-accent-set,
-.progress-bar,
-.progress-bar:hover {
-  --background-base: var(--spice-color) !important;
-  --is-active-fg-color: var(--spice-color) !important;
-  --spice-button: var(--spice-color) !important;
-  --is-active-fg-color: var(--spice-color) !important;
-}
-
+// buttons
 .main-playButton-PlayButton,
 .main-playButton-primary,
-.ButtonInner-sc-14ud5tc-0 {
-  background: var(--spice-color) !important;
-  background-color: var(--spice-color) !important;
-  color: var(--spice-contrast) !important;
-
-  &:hover {
-    transform: scale(1.1) !important;
-  }
+.ButtonInner-sc-14ud5tc-0,
+.main-button-primary {
+  @extend .__background;
+  @extend .__scale_hover;
 }
 
+// download button
 .HbKLiGoYM4dpuK8L4TMX {
-  color: var(--spice-color) !important;
+  @extend .__color;
+  @extend .__scale_hover;
+
   border-radius: 50% !important;
 
   &._APVWqivXc4YqgsnpFkP {
@@ -65,41 +105,37 @@
   }
 }
 
-.main-button-primary {
-  @extend .ButtonInner-sc-14ud5tc-0;
-
-  background: var(--spice-color) !important;
-  background-color: var(--spice-color) !important;
-}
-
 // progress bar
 .progress-bar:hover .epWhU7hHGktzlO_dop6z {
   background: var(--spice-color) !important;
   background-color: var(--spice-color) !important;
 }
 
+// song list active row
 .main-trackList-trackListRow.main-trackList-active {
   .main-trackList-rowTitle,
   .main-trackList-rowMarker {
     color: var(--spice-color) !important;
   }
+
+  .main-trackList-playingIcon {
+    filter: brightness(1000%) !important;
+  }
 }
 
+// devices pannel
 .connect-device-list-item--active,
 .connect-device-list-item--active *,
 .control-button--active,
 .main-repeatButton-button {
-  color: var(--spice-color) !important;
+  @extend .__color;
 }
 
 .main-connectBar-connectBar.encore-bright-accent-set.mVVxN9ZfIRjiQfDuzPCZ.main-type-mesto {
-  color: var(--spice-contrast) !important;
+  @extend .__color_contrast;
 }
 
-.main-trackList-playingIcon {
-  filter: brightness(1000%) !important;
-}
-
+// group session icons
 #spicetify-group-session-menu > img {
   filter: grayscale(100%) contrast(200%) !important;
   border-radius: 5px !important;

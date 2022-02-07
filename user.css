@@ -3,26 +3,72 @@
   font-family: 'Open Sans', sans-serif !important;
 }
 
-.main-topBar-background {
-  background-color: var(--spice-player) !important;
-  background: var(--spice-player) !important;
+:root,
+.encore-dark-theme .encore-bright-accent-set,
+.progress-bar,
+.progress-bar:hover,
+.hW9km7ku6_iggdWDR_Lg {
+  --background-base: var(--spice-color) !important;
+  --is-active-fg-color: var(--spice-color) !important;
+  --spice-button: var(--spice-color) !important;
+  --is-active-fg-color: var(--spice-color) !important;
+  --spice-button-active: var(--spice-color) !important;
+  --lyrics-color-active: var(--spice-color) !important;
+  --lyrics-color-inactive: #464849 !important;
+  --lyrics-color-background: var(--spice-main) !important;
+  --lyrics-color-messaging: #333333 !important;
 }
 
-.main-entityHeader-backgroundColor,
+.__background, .main-playButton-PlayButton,
+.main-playButton-primary,
+.ButtonInner-sc-14ud5tc-0,
+.main-button-primary {
+  background-color: var(--spice-color) !important;
+  background: var(--spice-color) !important;
+  color: var(--spice-contrast) !important;
+}
+
+.__color, .HbKLiGoYM4dpuK8L4TMX, .connect-device-list-item--active,
+.connect-device-list-item--active *,
+.control-button--active,
+.main-repeatButton-button {
+  color: var(--spice-color) !important;
+  fill: var(--spice-color) !important;
+}
+
+.__color_contrast, .main-connectBar-connectBar.encore-bright-accent-set.mVVxN9ZfIRjiQfDuzPCZ.main-type-mesto {
+  color: var(--spice-contrast) !important;
+  fill: var(--spice-contrast) !important;
+}
+
+.__heart, .control-button-heart,
+.main-addButton-active {
+  color: var(--spice-heart) !important;
+  fill: var(--spice-heart) !important;
+}
+
+.__transparent, .main-entityHeader-backgroundColor,
 .main-home-homeHeader,
 .main-actionBarBackground-background {
   background-color: transparent !important;
   background: transparent !important;
 }
 
-.iB16LxoPzDeVZo8zPhPQ {
-  isolation: unset !important;
+.__scale_hover:hover, .main-playButton-PlayButton:hover,
+.main-playButton-primary:hover,
+.ButtonInner-sc-14ud5tc-0:hover,
+.main-button-primary:hover, .HbKLiGoYM4dpuK8L4TMX:hover {
+  -webkit-transform: scale(1.1) !important;
+          transform: scale(1.1) !important;
 }
 
-.control-button-heart,
-.main-addButton-active {
-  color: var(--spice-heart) !important;
-  fill: var(--spice-heart) !important;
+.main-topBar-background {
+  background-color: var(--spice-player) !important;
+  background: var(--spice-player) !important;
+}
+
+.iB16LxoPzDeVZo8zPhPQ {
+  isolation: unset !important;
 }
 
 .control-button-heart:hover,
@@ -30,35 +76,7 @@
   opacity: 0.75 !important;
 }
 
-:root,
-.encore-dark-theme .encore-bright-accent-set,
-.progress-bar,
-.progress-bar:hover {
-  --background-base: var(--spice-color) !important;
-  --is-active-fg-color: var(--spice-color) !important;
-  --spice-button: var(--spice-color) !important;
-  --is-active-fg-color: var(--spice-color) !important;
-}
-
-.main-playButton-PlayButton,
-.main-playButton-primary,
-.ButtonInner-sc-14ud5tc-0,
-.main-button-primary {
-  background: var(--spice-color) !important;
-  background-color: var(--spice-color) !important;
-  color: var(--spice-contrast) !important;
-}
-
-.main-playButton-PlayButton:hover,
-.main-playButton-primary:hover,
-.ButtonInner-sc-14ud5tc-0:hover,
-.main-button-primary:hover {
-  -webkit-transform: scale(1.1) !important;
-          transform: scale(1.1) !important;
-}
-
 .HbKLiGoYM4dpuK8L4TMX {
-  color: var(--spice-color) !important;
   border-radius: 50% !important;
 }
 
@@ -71,11 +89,6 @@
           transform: scale(1.1);
 }
 
-.main-button-primary {
-  background: var(--spice-color) !important;
-  background-color: var(--spice-color) !important;
-}
-
 .progress-bar:hover .epWhU7hHGktzlO_dop6z {
   background: var(--spice-color) !important;
   background-color: var(--spice-color) !important;
@@ -86,18 +99,7 @@
   color: var(--spice-color) !important;
 }
 
-.connect-device-list-item--active,
-.connect-device-list-item--active *,
-.control-button--active,
-.main-repeatButton-button {
-  color: var(--spice-color) !important;
-}
-
-.main-connectBar-connectBar.encore-bright-accent-set.mVVxN9ZfIRjiQfDuzPCZ.main-type-mesto {
-  color: var(--spice-contrast) !important;
-}
-
-.main-trackList-playingIcon {
+.main-trackList-trackListRow.main-trackList-active .main-trackList-playingIcon {
   -webkit-filter: brightness(1000%) !important;
           filter: brightness(1000%) !important;
 }
