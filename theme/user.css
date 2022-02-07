@@ -8,6 +8,10 @@
   background: var(--spice-player) !important;
 }
 
+.progress-bar {
+  --is-active-fg-color: var(--spice-color) !important;
+}
+
 .main-entityHeader-backgroundColor,
 .main-home-homeHeader,
 .main-actionBarBackground-background,
