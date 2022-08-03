@@ -31,7 +31,9 @@
 .__color, .HbKLiGoYM4dpuK8L4TMX, .connect-device-list-item--active,
 .connect-device-list-item--active *,
 .control-button--active,
-.main-repeatButton-button {
+.main-repeatButton-button[aria-checked="true"],
+.main-repeatButton-button[aria-checked="mixed"],
+.main-shuffleButton-button[aria-checked="true"] {
   color: var(--spice-color) !important;
   fill: var(--spice-color) !important;
 }
