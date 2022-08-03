@@ -31,7 +31,8 @@ input:checked~.x-toggle-indicatorWrapper {
 }
 
 .button-module__button___hf2qg_marketplace {
-  color: #ffff;
+  color: black;
+  background-color: var(--spice-color)
 }
 
 .Dropdown-menu {
