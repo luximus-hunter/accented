@@ -22,7 +22,9 @@
 .__background, .main-playButton-PlayButton,
 .main-playButton-primary,
 .ButtonInner-sc-14ud5tc-0,
-.main-button-primary {
+.main-button-primary,
+.control-button--active-dot:after,
+input:checked~.x-toggle-indicatorWrapper {
   background-color: var(--spice-color) !important;
   background: var(--spice-color) !important;
   color: var(--spice-contrast) !important;
@@ -33,7 +35,9 @@
 .control-button--active,
 .main-repeatButton-button[aria-checked="true"],
 .main-repeatButton-button[aria-checked="mixed"],
-.main-shuffleButton-button[aria-checked="true"] {
+.main-shuffleButton-button[aria-checked="true"],
+button[aria-label="Playing"],
+.control-button--active-dot:after {
   color: var(--spice-color) !important;
   fill: var(--spice-color) !important;
 }
