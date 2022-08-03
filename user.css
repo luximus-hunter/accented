@@ -35,8 +35,13 @@ input:checked~.x-toggle-indicatorWrapper {
 }
 
 .Dropdown-menu {
-  background-color: #282828; 
+  background-color: #282828;
+  max-height: 30vh;
+  max-width: 350px; 
+  min-width: 145px;
+  border: 4px;
 }
+
 
 .__color, .HbKLiGoYM4dpuK8L4TMX, .connect-device-list-item--active,
 .connect-device-list-item--active *,
