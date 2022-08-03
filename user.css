@@ -30,6 +30,10 @@ input:checked~.x-toggle-indicatorWrapper {
   color: var(--spice-contrast) !important;
 }
 
+.Dropdown-menu {
+  background-color: #282828; 
+}
+
 .__color, .HbKLiGoYM4dpuK8L4TMX, .connect-device-list-item--active,
 .connect-device-list-item--active *,
 .control-button--active,
