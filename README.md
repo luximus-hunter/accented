@@ -29,11 +29,11 @@ Install the theme though the [Spicetify Marketplace](https://github.com/CharlieS
 
 ```bash
 cd "$(dirname "$(spicetify -c)")/Themes"
-git clone https://github.com/CharlieS1103/Glaze-theme
+git clone https://github.com/luximus-hunter/accented
 ```
 
 **Windows** in Powershell:
 
 ```powershell
 cd "$(spicetify -c | Split-Path)\Themes"
-git clone https://github.com/CharlieS1103/Glaze-theme
+git clone https://github.com/luximus-hunter/accented
