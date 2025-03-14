@@ -131,3 +131,12 @@ button[aria-label="Playing"],
   padding-bottom: 0 !important;
   margin-bottom: 12px !important;
 }
+
+.e-9640-button-primary:hover .e-9640-button-primary__inner {
+  background-color: var(--spice-color) !important;
+  filter: brightness(1.2) !important;
+}
+
+.view-homeShortcutsGrid-equaliser {
+  filter: brightness(1000%) !important;
+}
